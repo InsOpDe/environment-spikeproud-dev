@@ -1,0 +1,39 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIEyDCCArCgAwIBAgIRAONLJdHyqtF4n/Rgi5gXwk4wDQYJKoZIhvcNAQELBQAw
+    DTELMAkGA1UEAxMCY2EwHhcNMTkwNzMwMTEzNDQyWhcNNDkwNzIyMTE0NDQyWjAN
+    MQswCQYDVQQDEwJjYTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALZo
+    9MGiP0Lxq39OXJMoJLiWFerl/PdLr0IT5wKV4DL54i/ekWqAY1DaKuiUN2oBOq4q
+    06ufGZJx5DZezMC3Pd88g4X54Snv+kqIbpBdLimZrTIlpMNS2fG464IhLljxNqi3
+    s58hfzucrDe6iwKcXepNh3sFwJ2flCdkVWoPRD+ytYBTbmzP+4yFiDlE4ZyhbRSM
+    jSnwNlZbuz2fBdb3u76Zh/R6sAx7SsiQPHOHTMfxNvFN/qZadJvgIM2yNuGnYZKl
+    jsOa5C8elgb2QLg+EWwQ7KSYGmnkuUQ+GKDUEYE7cC39qO5/34a1KvXBPMsEQXzO
+    UcaIWKTXUQIuQG2n84908fWZ84l8jXNZSboeN8vnd6qFn8RLm8s69a3+YGT/HAZ5
+    /Ex2TInz1gWuhcwnX+0AElQnePy/d4aMny9QS22+a2vr/oD4aI2C0zFcTcYYKaUw
+    VEsHnQbgH0qpB0GkRdNiC0dCYXiODSur3RgOx5YVZz31IYY34YdCLGl5UnpEK8Mj
+    /WzDfWxd5VLkN1sp7TmfKpOF0j8mUsRhgBwgzpa3EW3pC6w9K4XUvbnVN+P75wQx
+    ZxWcMIdiwi97iEqQoLN46BZ6bQaqwsOGuyylPp1AUvGD/tsBApHZHrhuJCVRW4+S
+    BVcpECUrVrplIrlmdYGKa5lMmH1pTsz8AlQMytKFAgMBAAGjIzAhMA4GA1UdDwEB
+    /wQEAwICpDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQBY3xJM
+    z94wj9pvyKeSlhfTM378NXIbtfqnZsNuWlfurtplR9bJ9Bf9iYQ9Zvykkj+Ojm7O
+    3h74Q2x9Z2Nzoo5a64nbMDRvNUGXY0GfSHps5aCwcWBr+zYvdAgarIxYxFTjJZR7
+    bahvLrlT4Qh6mcmwa0/CqA5PMf9RBVkMHH7fqUFTYJKqyM5fKRhA8tiRHtKh8aAJ
+    7VbihySs23zT6wRjK6BcZ3squ6CSpEIvCAybcdZFVNyxQzuReX9LpHgkLLBzo2GD
+    aKRt6Lq54jX5MnChy1tAjFvHQ9KZBT9bUVLOhAY04rqtptCUJnzJAxVqvz8aOxSv
+    e4r/o4FwWHkJThC4qFkY76YagUi3/WeXr40WXjzteJAcXCO7Wp9wjF+vFsIz+CP2
+    tzcPsh+E52lPqwMhGz6x9hTUs2/UZJNbZcuHkwNVRa+T6RV2sanc1pRgHFQNaqxc
+    QChq3KNgDUb/zC36ZBstVet38ypi7QAoIJtsviImYm5nRmLZH0XOu1Jz+XGSo0Zh
+    2tUXUbMyZ6Th0fByAiPuz6bUaQ0tu+cYiKALT+p6O+YyCBHPQdRUrk3IsVpLBle8
+    Og8mPhRSSF6Qn/jS0K1/XU77lF5b6vG0ZM39OyI8/LSD6fArggC/36rKZZPrmKOE
+    MJRkP7dAiCUnJhT3sktNaRrGy+C993FlkMme7g==
+    -----END CERTIFICATE-----
+  jx-install-version: 2.0.553
+  kubeProvider: aks
+  secretsLocation: fileSystem
+  server: https://k8sjxtest-k8sjx-88179e-8cff4eca.hcp.westeurope.azmk8s.io:443
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config

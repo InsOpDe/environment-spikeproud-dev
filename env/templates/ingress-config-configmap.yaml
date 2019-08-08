@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  clusterissuer: "false"
+  domain: 104.40.202.92.nip.io
+  email: ""
+  exposer: Ingress
+  issuer: ""
+  tls: "false"
+  urltemplate: ""
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: ingress-config
